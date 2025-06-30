@@ -1,4 +1,4 @@
-import React from "react"
+import Hero from './components/Hero.jsx'
 
 import "./css/App.css"
 
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <main>
-      <h1>Welcome to Awwwards</h1>
+      <Hero />
     </main>
   )
 }
